@@ -1,3 +1,9 @@
+# Arquitectura del Sistema MVP
+
+Este proyecto utiliza una arquitectura de servicios REST orientada a la validación de datos en tiempo real.
+
+## Diagrama de Flujo de Datos
+```mermaid
 graph TD
     A[Usuario / Swagger UI] --> B(FastAPI Engine)
     B --> C{Validación Pydantic}
