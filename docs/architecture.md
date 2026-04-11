@@ -7,6 +7,3 @@ graph TD
     F -->|NO| H[Consulta DB Memoria]
     H --> I[Guardar en Redis]
     I --> G
-    
-    style F fill:#f9f,stroke:#333,stroke-width:2px
-    style I fill:#bbf,stroke:#333,stroke-style:dashed
